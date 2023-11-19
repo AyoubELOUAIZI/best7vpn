@@ -9,7 +9,7 @@ const Hero1 = () => {
 // -->
 
 <section
-  class=" relative bg-[url(https://i.gifer.com/origin/1a/1a8e3e69c25ec05a86423c612c64c84c_w200.gif)] bg-cover bg-center bg-no-repeat"
+  class=" relative bg-[url(https://res.cloudinary.com/dm9udoven/image/upload/v1700437320/best7vpn/1a8e3e69c25ec05a86423c612c64c84c_w200_v0g7kq.gif)] bg-cover bg-center bg-no-repeat"
 >
   <div
     class="absolute inset-0 bg-white/75 sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"

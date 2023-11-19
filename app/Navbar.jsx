@@ -1,5 +1,3 @@
-// src/app/components/Navbr.tsx
-
 "use client";
 
 import { motion } from "framer-motion";
@@ -26,16 +24,13 @@ const navItems = [
   },
 ];
 
-export default function NavBar() {
+export default function Navbar() {
   let pathname = usePathname() || "/";
   const [hoveredPath, setHoveredPath] = useState(pathname);
 
   return (
     
-    // {/* // <div className="border border-stone-800/90 p-[0.4rem] rounded-lg mb-12 sticky top-4 z-[100] bg-stone-900/80 backdrop-blur-md"> */}
-      <nav className="md:flex gap-5 fixed justify-between w-full z-[900] dark:bg-black bg-white  dark:border-white  border-b border-black py-2 items-center md:px-20 ">
-       {/* <div className="text-center px-5 py-2">Best7vpn</div> */}
-
+      <nav className="md:flex gap-5 fixed justify-between w-full z-[900] dark:bg-black   dark:border-white  border-b border-black py-2 items-center md:px-20 ">
        <Link href={'/'}>
        <h1 className=" text-3xl text-center font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
