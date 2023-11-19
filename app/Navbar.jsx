@@ -13,8 +13,8 @@ const navItems = [
     name: "Home",
   },
   {
-    path: "/now",
-    name: "Now",
+    path: "/Reviews",
+    name: "Reviews",
   },
   {
     path: "/guestbook",
@@ -33,7 +33,7 @@ export default function NavBar() {
   return (
     
     // {/* // <div className="border border-stone-800/90 p-[0.4rem] rounded-lg mb-12 sticky top-4 z-[100] bg-stone-900/80 backdrop-blur-md"> */}
-      <nav className="md:flex gap-5 fixed justify-between w-full z-[900]  dark:border-white  border-b border-black py-2 items-center md:px-20 ">
+      <nav className="md:flex gap-5 fixed justify-between w-full z-[900] dark:bg-black bg-white  dark:border-white  border-b border-black py-2 items-center md:px-20 ">
        {/* <div className="text-center px-5 py-2">Best7vpn</div> */}
 
        <Link href={'/'}>
