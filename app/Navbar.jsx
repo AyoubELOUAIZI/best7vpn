@@ -33,8 +33,16 @@ export default function NavBar() {
   return (
     
     // {/* // <div className="border border-stone-800/90 p-[0.4rem] rounded-lg mb-12 sticky top-4 z-[100] bg-stone-900/80 backdrop-blur-md"> */}
-      <nav className="md:flex gap-5 bg-cyan-400 fixed justify-between w-full z-[100]  rounded-lg border py-2 items-center md:px-20   ">
-       <div className="text-center px-5 py-2">Best7vpn</div>
+      <nav className="md:flex gap-5 fixed justify-between w-full z-[900]  dark:border-white  border-b border-black py-2 items-center md:px-20 ">
+       {/* <div className="text-center px-5 py-2">Best7vpn</div> */}
+
+       <Link href={'/'}>
+       <h1 className=" text-3xl text-center font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+        Best7vpn
+        </span>{" "}
+      </h1>
+      </Link>
        <div className=" text-center ">
         {navItems.map((item, index) => {
           const isActive = item.path === pathname;
@@ -53,7 +61,7 @@ export default function NavBar() {
               <span>{item.name}</span>
               {item.path === hoveredPath && (
                 <motion.div
-                  className="absolute bottom-0 left-0 h-full bg-blue-500 rounded-md -z-10"
+                  className="absolute bottom-0 left-0 h-full dark:bg-slate-500 bg-slate-950 rounded-md -z-10"
                   layoutId="navbar"
                   aria-hidden="true"
                   style={{
