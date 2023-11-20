@@ -15,12 +15,8 @@ const navItems = [
     name: "Reviews",
   },
   {
-    path: "/guestbook",
-    name: "Guestbook",
-  },
-  {
-    path: "/writing",
-    name: "Writing",
+    path: "/what-is-vpn",
+    name: "What is VPN",
   },
 ];
 
