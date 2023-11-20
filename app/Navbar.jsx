@@ -11,7 +11,7 @@ const navItems = [
     name: "Home",
   },
   {
-    path: "/Reviews",
+    path: "/reviews",
     name: "Reviews",
   },
   {
@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     
-      <nav className="md:flex gap-5 fixed justify-between w-full z-[900] dark:bg-black   dark:border-white  border-b border-black py-2 items-center md:px-20 ">
+      <nav className="md:flex gap-5 fixed justify-between w-full z-[900] bg-white dark:bg-black dark:border-white  border-b border-black py-2 items-center md:px-20 ">
        <Link href={'/'}>
        <h1 className=" text-3xl text-center font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
