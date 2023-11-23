@@ -2,6 +2,7 @@ import { Roboto } from 'next/font/google'
 import './globals.css'
 import Footer from './Footer'
 import Navbar from './navbar'
+import ReversHero from './components/ReversHero'
 const roboto = Roboto({ subsets: ['latin'],weight:['100', '300', '400', '500', '700', '900'] })
 
 export const metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
          <div className='pt-16'>
         {children}
          </div>
+         <ReversHero/>
         <Footer/>
         </body>
     </html>

@@ -1,6 +1,6 @@
-import Hero1 from "../components/Hero1";
+import Hero1 from "./components/Hero1";
 import Image from "next/image";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "./components/ProductCard";
 
 export default function Home() {
   return (

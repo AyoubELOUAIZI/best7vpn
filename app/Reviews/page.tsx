@@ -1,6 +1,6 @@
 import React from "react";
-import ReviewCard from "../../components/ReviewCard";
-import CustomerTestimoniesGrid from "../../components/CustomerTestimoniesGrid";
+import ReviewCard from "../components/ReviewCard";
+import CustomerTestimoniesGrid from "../components/CustomerTestimoniesGrid";
 
 const Reviews = () => {
   return (
