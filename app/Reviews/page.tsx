@@ -26,7 +26,7 @@ const ReviewsData = [
     goodness: "Excellent",
     starsNum: 10,
     description:
-      "NordVPN: This is another fast and secure VPN that has over 5,400 servers in 59 countries. It has a feature called CyberSec that blocks ads, malware, and trackers. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee.",
+      "NordVPN is another excellent VPN service that offers fast speeds, top-notch security, and a large network of servers in 59 countries. It has a feature called CyberSec that blocks ads, malware, and trackers. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee",
     link: "",
   },
   {
@@ -39,7 +39,7 @@ const ReviewsData = [
     goodness: "Very Good",
     starsNum: 9,
     description:
-      "TorGuard VPN: This is a highly customizable VPN that offers over 3,000 servers in 68 countries. It has a feature called Stealth VPN that bypasses VPN blocking and DPI firewalls. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 7-day money-back guarantee.",
+      " TorGuard VPN is a highly customizable VPN that offers over 3,000 servers in 68 countries. It has a feature called Stealth VPN that bypasses VPN blocking and DPI firewalls. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 7-day money-back guarantee",
     link: "",
   },
   {
@@ -52,7 +52,7 @@ const ReviewsData = [
     goodness: "Very Good",
     starsNum: 9,
     description:
-      "Private Internet Access VPN: This is a VPN that offers over 35,000 servers in 77 countries. It has a feature called MACE that blocks ads, trackers, and malware. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee.",
+      "Private Internet Access VPN offers over 35,000 servers in 77 countries. It has a feature called MACE that blocks ads, trackers, and malware. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee",
     link: "",
   },
   {
@@ -65,7 +65,7 @@ const ReviewsData = [
     goodness: "Good",
     starsNum: 8,
     description:
-      "ProtonVPN: This is a VPN that offers over 1,200 servers in 55 countries. It has a feature called Secure Core that routes your traffic through multiple servers before leaving the VPN network. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee.",
+      "ProtonVPN is a good VPN service that offers over 1,200 servers in 55 countries. It has a feature called Secure Core that routes your traffic through multiple servers before leaving the VPN network. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee",
     link: "",
   },
   {
@@ -78,7 +78,7 @@ const ReviewsData = [
     goodness: "Good",
     starsNum: 8,
     description:
-      "CyberGhost VPN: This is a VPN that offers over 7,000 servers in 91 countries. It has a feature called NoSpy servers that are located in Romania and offer extra privacy and security. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 45-day money-back guarantee",
+      "CyberGhost VPN is a good VPN service that offers over 7,000 servers in 91 countries. It has a feature called NoSpy servers that are located in Romania and offer extra privacy and security. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 45-day money-back guarantee",
     link: "",
   },
   {
@@ -91,7 +91,7 @@ const ReviewsData = [
     goodness: "Good",
     starsNum: 7,
     description:
-      "Surfshark VPN: This is a VPN that offers over 3,200 servers in 65 countries. It has a feature called CleanWeb that blocks ads, trackers, and malware. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee ",
+      "Surfshark VPN is a good VPN service that offers over 3,200 servers in 65 countries. It has a feature called CleanWeb that blocks ads, trackers, and malware. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee",
     link: "",
   },
 ];
@@ -99,11 +99,10 @@ const Reviews = () => {
   return (
     <div className="pt-3 ">
       <ul className="grid grid-cols-1  gap-y-8 gap-x-6 items-start p-8 xl:mx-40">
-       {ReviewsData.map(review=>(
-         <ReviewCard key={review.order}  review={review}/>
-       ))}
+        {ReviewsData.map((review) => (
+          <ReviewCard key={review.order} review={review} />
+        ))}
       </ul>
-      <CustomerTestimoniesGrid />
     </div>
   );
 };
