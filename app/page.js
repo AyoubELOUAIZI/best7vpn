@@ -2,6 +2,7 @@ import Hero1 from "./components/Hero1";
 import Image from "next/image";
 import ProductCard from "./components/ProductCard";
 import TransparencyHero from "./components/TransparencyHero";
+import AdditionText from "./components/AdditionText";
 import {ReviewsInfo} from "./VpnReviwData"
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <div className="   p-2 m-2"> </div>
 
       </div>
+      <AdditionText/>
     </main>
   );
 }
