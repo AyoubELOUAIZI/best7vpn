@@ -1,76 +1,78 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+import StarIcon from "./StarIcon";
 
 const ProductCard = () => {
   return (
-    <section class="container mx-auto lg:ml-5 p-10 md:p-2 m-8 rounded antialiased border hover:bg-cyan-300 duration-300">
-    <article
-        class=" flex flex-wrap md:flex-nowrap shadow-lg mx-auto  group cursor-pointer transform duration-500 hover:-translate-y-1">
-        <img class="w-full max-h-[400px] object-cover md:w-52" src="https://i.ibb.co/Kr4b0zJ/152013403-10158311889099633-8423107287930246533-o.jpg" alt=""/>
-        <div class="">
-            <div class="p-5 pb-10">
-                <h1 class="text-2xl font-semibold text-gray-800 mt-4">
-                    The Magnificent Bogra
-                </h1>
-                <p class="text-xl text-gray-400 mt-2 leading-relaxed">
-                    Located in Rajshahi Division, Bogra is one of the oldest and most fascinating towns in Bangladesh
-                </p>
+    <>
+      <div class="p-4">
+        <figure class="md:flex max-w-7xl bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 ">
+        <h1 className="p-3 text-3xl text-center font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+        1
+        </span>{" "}
+      </h1>
+          <Image
+            class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-contain"
+            src="https://res.cloudinary.com/dm9udoven/image/upload/v1700780756/best7vpn/cyberghost_vpn_kbrr9a.svg"
+            alt=""
+            width="384"
+            height="512"
+          />
+          <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+            <blockquote>
+              <p class="text-lg font-medium">
+                “CyberGhost VPN: Fast, secure, and easy-to-use service for all
+                major operating systems and devices. Unlimited bandwidth, no
+                logs, streaming-optimized servers, and a 45-day money-back
+                guarantee. Encrypts online traffic, hides real IP address,
+                ensuring privacy and security on any device. Connect up to 7
+                devices simultaneously with just 1 subscription. App available
+                for Windows, macOS, Android, iOS, and Linux; can be configured
+                with routers, Smart TVs, Amazon Fire TV Stick, or game consoles.
+                Large server fleet across America, Europe, Africa, and Asia for
+                accessing favorite content. Fast speeds for streaming,
+                downloading, and online gaming.”
+              </p>
+            </blockquote>
+            <figcaption class="font-medium">
+              <div class="text-sky-500 dark:text-sky-400 flex items-center">
+                Stars :&nbsp;
+                <StarIcon />{" "}
+              </div>
+              <div class="text-slate-700 dark:text-slate-500">
+                <span className="text-sky-500 dark:text-sky-400">
+                  Ranking :&nbsp;
+                </span>{" "}
+                <span className="font-semibold text-5xl tracking-tight">
+                  9.8
+                </span>
+                &nbsp;(Very Good)
+              </div>
+              <div class="text-slate-700 dark:text-slate-500">
+                <span className="text-sky-500 dark:text-sky-400">
+                  Start At :&nbsp;
+                </span>{" "}
+                <span className="font-semibold text-5xl tracking-tight">
+                  US$ 9.8<span className="text-2xl">/mo</span> 
+                </span>
+              </div>
+              <div class="mt-3 text-gray-600 text-sm md:text-sm">
+                This VPN seamlessly operates across a diverse range of
+                platforms, including Windows, macOS, Linux, Android, iOS,
+                Chrome, Firefox, and more.
+              </div>
+            </figcaption>
+            <div className="md:text-right">
+              <button class="mt-3 sm:mt-0 py-2 px-5 md:py-3 md:px-6  bg-gradient-to-r to-emerald-600 from-sky-400 font-bold text-white md:text-lg rounded-lg shadow-md">
+                Go to Official Site
+              </button>
             </div>
-            <div class="bg-blue-50 p-5">
-                <div class="sm:flex sm:justify-between">
-                    <div>
-                        <div class="text-lg text-gray-700">
-                            <span class="text-gray-900 font-bold">196 km</span> from Dhaka
-                        </div>
-                        <div class="flex items-center">
-                            <div class="flex">
-                                <svg class="w-4 h-4 mx-px fill-current text-green-600"
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
-                                    <path
-                                        d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z">
-                                    </path>
-                                </svg>
-                                <svg class="w-4 h-4 mx-px fill-current text-green-600"
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
-                                    <path
-                                        d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z">
-                                    </path>
-                                </svg>
-                                <svg class="w-4 h-4 mx-px fill-current text-green-600"
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
-                                    <path
-                                        d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z">
-                                    </path>
-                                </svg>
-                                <svg class="w-4 h-4 mx-px fill-current text-green-600"
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
-                                    <path
-                                        d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z">
-                                    </path>
-                                </svg>
-                                <svg class="w-4 h-4 mx-px fill-current text-green-600"
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
-                                    <path
-                                        d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="text-gray-600 ml-2 text-sm md:text-base mt-1">
-                                16 reviews
-                            </div>
-                        </div>
-                    </div>
-                    <button class="mt-3 sm:mt-0 py-2 px-5 md:py-3 md:px-6 bg-purple-700 hover:bg-purple-600 font-bold text-white md:text-lg rounded-lg shadow-md">
-              Book Ticket
-            </button>
-                </div>
-                <div class="mt-3 text-gray-600 text-sm md:text-sm">
-                    *Places to visit: Mahasthangarh, Vasu Bihar &amp; Momo Inn
-                </div>
-            </div>
-        </div>
-    </article>
-</section>
-  )
-}
+          </div>
+        </figure>
+      </div>
+    </>
+  );
+};
 
-export default ProductCard
+export default ProductCard;
