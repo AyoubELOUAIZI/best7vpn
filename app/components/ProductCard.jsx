@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import StarIcon from "./StarIcon";
-import Link from "next/link";
 
 const ProductCard = ({ Reviw }) => {
   return (
