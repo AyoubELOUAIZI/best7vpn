@@ -1,6 +1,5 @@
 import React from "react";
 import ReviewCard from "../components/ReviewCard";
-import CustomerTestimoniesGrid from "../components/CustomerTestimoniesGrid";
 
 export const metadata = {
   title: 'Best7vpn - Best 7 VPN Reviews',
@@ -99,7 +98,7 @@ const ReviewsData = [
     link: "",
   },
 ];
-const Reviews = () => {
+const reviews = () => {
   return (
     <div className="pt-3 ">
       <ul className="grid grid-cols-1  gap-y-8 gap-x-6 items-start p-8 xl:mx-40">
@@ -111,4 +110,4 @@ const Reviews = () => {
   );
 };
 
-export default Reviews;
+export default reviews;

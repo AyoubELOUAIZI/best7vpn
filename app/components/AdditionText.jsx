@@ -52,12 +52,12 @@ const AdditionText = () => {
   return (
     <>
    { paragraphes.map((paragraphe,index)=>(
-       <div key={index} class="">
-        <div class="container mx-auto py-1 px-8 lg:px-32">
-          <h1 class=" text-5xl font-bold leading-tight mb-8">
+       <div key={index} className="">
+        <div className="container mx-auto py-1 px-8 lg:px-32">
+          <h1 className=" text-5xl font-bold leading-tight mb-8">
           {paragraphe.title}
           </h1>
-          <p class=" text-lg mb-12">
+          <p className=" text-lg mb-12">
             {paragraphe.text}
           </p>
         </div>
