@@ -7,7 +7,7 @@ const ProductCard = ({ Reviw }) => {
   return (
     <>
       <div class="p-4">
-        <figure class="md:flex max-w-7xl bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 ">
+        <figure class="md:flex max-w-7xl bg-slate-300 rounded-xl p-8 md:p-0 dark:bg-slate-800 ">
           <h1 className="p-3 text-3xl text-center font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
               {Reviw.order}

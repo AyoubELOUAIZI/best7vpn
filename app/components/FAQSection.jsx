@@ -3,7 +3,7 @@ import React from "react";
 const FAQSection = ({FAQ}) => {
   console.log("🚀 ~ file: FAQSection.jsx:4 ~ FAQSection ~ FAQ:", FAQ)
   return (
-    <div class="bg-white">
+    <div class="">
       <div class="max-w-screen-xl mx-auto pt-12 pb-16 sm:pt-16 sm:pb-20 px-4 sm:px-6 lg:pt-20 lg:pb-28 lg:px-8">
         <h2 class="text-3xl leading-9 font-extrabold text-gray-900 text-center">
           VPNs Frequently asked questions
