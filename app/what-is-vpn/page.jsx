@@ -9,6 +9,12 @@ import {FAQ4} from "./FAQData"
 import {FAQ5} from "./FAQData"
 import {FAQ6} from "./FAQData"
 import {FAQ7} from "./FAQData"
+import GoogleAnalytics from '../components/GoogleAnalytics';
+
+export const metadata = {
+  title: 'Best7vpn - What is a VPN? Learn About Virtual Private Networks',
+  description: 'Understand the fundamentals of Virtual Private Networks (VPNs) and discover how they can enhance your online security, protect your data, and ensure anonymous browsing.',
+}
 const whatVpn = () => {
   return (
     <div className='mt-3'>

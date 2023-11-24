@@ -2,6 +2,10 @@ import React from "react";
 import ReviewCard from "../components/ReviewCard";
 import CustomerTestimoniesGrid from "../components/CustomerTestimoniesGrid";
 
+export const metadata = {
+  title: 'Best7vpn - Best 7 VPN Reviews',
+  description: 'Explore detailed reviews for the top 7 VPN services. Find comprehensive information about each VPN, including features, performance, and pros and cons. Make an informed decision to enhance your online security and privacy.',
+}
 const ReviewsData = [
   {
     order: "1",
