@@ -17,7 +17,7 @@ const ReviewsData = [
     goodness: "Excellent",
     description:
       "ExpressVPN: This is one of the fastest VPNs we’ve tested, registering an 18% speed loss in our latest tests in February and March of 2023. It has a large network of more than 3,000 servers in 160 locations across 94 countries. It offers top-notch security with no leaks detected, excellent for streaming, and a 30-day money-back guarantee.",
-    link: "",
+    link: "https://www.expressvpn.com/",
   },
   {
     order: "2",
@@ -30,7 +30,7 @@ const ReviewsData = [
     starsNum: 10,
     description:
       "NordVPN is another excellent VPN service that offers fast speeds, top-notch security, and a large network of servers in 59 countries. It has a feature called CyberSec that blocks ads, malware, and trackers. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee",
-    link: "",
+    link: "https://nordforme.org/",
   },
   {
     order: "3",
@@ -42,8 +42,8 @@ const ReviewsData = [
     goodness: "Very Good",
     starsNum: 9,
     description:
-      " TorGuard VPN is a highly customizable VPN that offers over 3,000 servers in 68 countries. It has a feature called Stealth VPN that bypasses VPN blocking and DPI firewalls. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 7-day money-back guarantee",
-    link: "",
+      "TorGuard VPN is a highly customizable VPN that offers over 3,000 servers in 68 countries. It has a feature called Stealth VPN that bypasses VPN blocking and DPI firewalls. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 7-day money-back guarantee",
+    link: "https://torguard.net/",
   },
   {
     order: "4",
@@ -56,7 +56,7 @@ const ReviewsData = [
     starsNum: 9,
     description:
       "Private Internet Access VPN offers over 35,000 servers in 77 countries. It has a feature called MACE that blocks ads, trackers, and malware. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee",
-    link: "",
+    link: "https://www.privateinternetaccess.com/",
   },
   {
     order: "5",
@@ -69,7 +69,7 @@ const ReviewsData = [
     starsNum: 8,
     description:
       "ProtonVPN is a good VPN service that offers over 1,200 servers in 55 countries. It has a feature called Secure Core that routes your traffic through multiple servers before leaving the VPN network. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee",
-    link: "",
+    link: "https://protonvpn.com/",
   },
   {
     order: "6",
@@ -82,7 +82,7 @@ const ReviewsData = [
     starsNum: 8,
     description:
       "CyberGhost VPN is a good VPN service that offers over 7,000 servers in 91 countries. It has a feature called NoSpy servers that are located in Romania and offer extra privacy and security. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 45-day money-back guarantee",
-    link: "",
+    link: "https://www.cyberghostvpn.com/",
   },
   {
     order: "7",
@@ -95,7 +95,7 @@ const ReviewsData = [
     starsNum: 7,
     description:
       "Surfshark VPN is a good VPN service that offers over 3,200 servers in 65 countries. It has a feature called CleanWeb that blocks ads, trackers, and malware. It also supports P2P file sharing and streaming services like Netflix and Hulu. It has a strict no-logs policy and a 30-day money-back guarantee",
-    link: "",
+    link: "https://surfshark.com/",
   },
 ];
 const reviews = () => {
