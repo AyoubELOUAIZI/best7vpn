@@ -2,6 +2,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import SupportBar from "./SupportBar";
 import ReversHero from "./components/ReversHero";
 const roboto = Roboto({
   subsets: ["latin"],
@@ -23,7 +24,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <GoogleAnalytics GA_TRACKING_ID="G-7L8Q3VNVRD" />
       <body className={roboto.className}>
+        <div className="fixed z-50 w-full">
+        <SupportBar />
         <Navbar />
+        </div>
         <div className="pt-16">{children}</div>
         <ReversHero />
         <Footer />
